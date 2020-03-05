@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".About">
+
+    <ImageView
+        android:id="@+id/iconAbout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher_round"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textAbout"
+        android:text="Calculator"
+        android:textSize="30sp"
+        android:layout_below="@id/iconAbout"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAbout"
+        android:id="@+id/byabout"
+        android:text="Developed by:  Destiny Ed"
+        android:gravity="center"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EmailAbout"
+        android:text="Email: dikeachaeze@gmail.com"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_below="@id/byabout"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        ads:adSize="BANNER"
+        android:layout_below="@id/EmailAbout"
+        ads:adUnitId="ca-app-pub-5104193284428722/1376561977">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
