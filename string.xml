@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculator Ed</string>
+    <string name="backspace">⌫</string>
+    <string name="display_textSize">12sp</string>
+    <string name="string">\@string/display_textSize</string>
+
+
+    <string name="adMob_app_ID">ca-app-pub-5104193*****8722~758*****0187</string>
+
+    <string name="Banner_Unit_ID">ca-app-pub-510419*****428722/137****977</string>
+</resources>
